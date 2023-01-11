@@ -75,7 +75,7 @@ books.cards.forEach((e, i) => {
     "beforeend",
     `
         <div class="card">
-            <div class="number">${i}</div>
+            <div class="number">${i + 1}</div>
             <div class="sub">${e.sub.toUpperCase()}</div>
             <div class="title">${e.title}</div>
             <div class="text">${e.text}</div>

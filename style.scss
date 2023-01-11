@@ -48,6 +48,7 @@ header {
     p {
         font-size: 12px;
         letter-spacing: 0.2em;
+        font-family: $op;
     }
 }
 .books-container {
@@ -64,7 +65,7 @@ header {
         padding: 30px;
         position: relative;
         width: 100%;
-        max-width:350px;
+        max-width:330px;
         min-height: 400px;
         border: 1px solid $b;
         color: $b;
@@ -76,23 +77,30 @@ header {
             font-size: 24px;
             position: absolute;
             top:5px;
-            right: -20px;
+            right: -10px;
+            font-family: $ms;
+            font-weight: 700;
 
              }
         .title{
             font-size: 36px;
             font-weight: 700;
             margin-bottom: 30px;
+            font-family: $op;
+            font-weight: 700;
         }
         .sub{
             font-size: 12px;
             font-weight: 400;
             letter-spacing: 0.2em;
             min-height: 25px;
+            font-family: $op;
         }
         .text{
             font-size: 16px;
             font-weight: 400;
+            font-family: $op;
+
         }
         button {
             position: absolute;
@@ -106,6 +114,7 @@ header {
             height: 18px;
             font-size: 14px;
             color: $b;
+            font-family: $op;
             span{
                 font-size: 18px;
             }
