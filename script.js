@@ -64,22 +64,26 @@ rootElement.insertAdjacentHTML(
     <p>${books.logo.toUpperCase()}</p>
     <span class="material-icons md-24">menu</span>
 </header>
-<div class="cards-container"></div>
+<div class="books-container"></div>
 `
 );
 
-const cardsContainer = document.querySelector(".cards-container");
+const bookContainer = document.querySelector(".books-container");
 
-beers.cards.forEach((e, index) => {
-  cardsContainer.insertAdjacentHTML(
+books.cards.forEach((e, i) => {
+  bookContainer.insertAdjacentHTML(
     "beforeend",
     `
         <div class="card">
-            <div class="number">${index}</div>
+            <div class="number">${i}</div>
             <div class="title">${e.title}</div>
             <div class="sub">${e.sub}</div>
             <div class="text">${e.text}</div>
-            <button>details</button>
+            <div class="btn">
+                <button>read more
+                <span class="material-icons md-24">arrow_forward</span>
+                </button>
+            </div>
         </div>
 
 

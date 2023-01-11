@@ -49,4 +49,49 @@ header {
 header p {
   font-size: 12px;
   letter-spacing: 0.2em;
+}
+
+.books-container {
+  max-width: 1280px;
+  gap: 100px 20px;
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.books-container .card {
+  padding: 40px;
+  position: relative;
+}
+.books-container .card .number {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  position: absolute;
+}
+.books-container .card .title {
+  font-size: 36px;
+  font-weight: 700;
+}
+.books-container .card .sub {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+.books-container .card .text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.books-container .card button {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 18px;
+  font-size: 14px;
+}
+.books-container .card button span {
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
